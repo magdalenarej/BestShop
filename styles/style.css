@@ -176,6 +176,7 @@
     font-size: 20px;
     font-weight: bolder;
     margin-top: 22px;
+    letter-spacing: 6px;
 }
 
 .statistic-p {
@@ -218,9 +219,7 @@
 .benefit-img-container {
     display: flex;
     position: relative;
-    /*padding: 50px 120px;*/
 }
-
 
 .benefit:first-child .benefit-img-container::after {
     content: '';
@@ -264,13 +263,6 @@
     z-index: 2;
 }
 
-.benefit:nth-child(2) .benefit-img {
-    width: 426px;
-    height: 321px;
-    z-index: 2;
-    margin: 30px 70px;
-}
-
 .benefit-description {
     display: flex;
     flex-direction: column;
@@ -295,7 +287,6 @@
     content: "";
     width: 327px;
     height: 4px;
-    /*background-color: red;*/
     margin: 20px 0;
 }
 
@@ -321,7 +312,6 @@
 }
 
 .benefit:last-child .benefit-img-container {
-    /*width: 42%;*/
     flex: 4;
     height: 470px;
     justify-content: center;
@@ -334,7 +324,6 @@
 .benefit:last-child .benefit-description {
     height: 470px;
     flex: 5;
-    /*width: 55%;*/
     align-items: flex-start;
     justify-content: center;
     background-color: var(--color-white);
@@ -371,7 +360,6 @@
     align-items: center;
     border: 1px solid;
     border-radius: 18px;
-    /*position: relative;*/
 }
 
 .pricing-title {
@@ -561,7 +549,6 @@
 }
 
 .checkbox {
-    /*position: absolute;*/
     margin: 5px;
     opacity: 0;
 }
@@ -571,6 +558,7 @@
     height: 24px;
     width: 24px;
     border: 2px solid var(--color-grey);
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -589,6 +577,7 @@
     border: none;
     border-radius: 35px;
     background-color: var(--color-primary);
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
     align-self: flex-end;
     margin: 20px 0;
 }
@@ -598,7 +587,7 @@
     align-items: center;
     width: 100%;
     height: 90px;
-    box-shadow: 0 3px 6px var(--color-grey);
+    box-shadow: 0 -5px 40px var(--color-grey);
 }
 
 .footer-flex {
@@ -613,6 +602,7 @@
     font-size: 26px;
     font-weight: lighter;
     line-height: 30px;
+    padding: 4px 0;
 }
 
 .footer-p {
